@@ -88,4 +88,19 @@ cell_status_t cell_get_status(ushort n, vector2d_t pos);
  */
 cell_status_t cell_get_square(vector2d_t cell, vector2d_t *origin);
 
+/**
+ * Check that a row contains `n`
+ */
+short row_has(ushort row, ushort n);
+
+/**
+ * Check that a column contains `n`
+ */
+short col_has(ushort col, ushort n);
+
+/**
+ * Check that the square `pos` is part of contains `n`
+ */
+short square_has(vector2d_t pos, ushort n);
+
 #endif // MATRIX_H

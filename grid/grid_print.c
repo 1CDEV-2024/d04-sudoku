@@ -1,7 +1,9 @@
-#include "grid.h"
 #include <stdio.h>
 #include <string.h>
 #include <sys/types.h>
+#include <unistd.h>
+
+#include "grid.h"
 
 const char *EMPTY_GRID = "+-----------+-----------+-----------+\0"
                          "|   |   |   |   |   |   |   |   |   |\0"
