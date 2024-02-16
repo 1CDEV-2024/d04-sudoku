@@ -20,11 +20,6 @@ static ushort try_next_candidate(stack_t *stack) {
   return 0;
 }
 
-static void update_pos(stack_t *stack, vector2d_t *pos) {
-  if (stack->top != NULL)
-    *pos = stack->top->pos;
-}
-
 static void backtrack(stack_t *stack, vector2d_t *pos) {
   snode_t node = stack_pop(stack);
   if (node == NULL)

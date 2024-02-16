@@ -31,9 +31,71 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="generator/generate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="generator/generate_diagonal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="generator/generate_square.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="generator/generator.h" />
+		<Unit filename="grid/grid.h" />
+		<Unit filename="grid/grid_destroy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="grid/grid_get.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="grid/grid_print.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="matrix/cell_get_square.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matrix/cell_get_status.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matrix/has.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matrix/matrix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matrix/matrix.h" />
+		<Unit filename="matrix/matrix_create.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matrix/matrix_destroy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matrix/matrix_get.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matrix/matrix_print.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matrix/matrix_set.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matrix/validate_pos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="random.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="solver/solve.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="solver/solver.h" />
+		<Unit filename="solver/stack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sudoku.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

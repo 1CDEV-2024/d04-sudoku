@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1708037196 source:/home/wrexes/Documents/1CDEV/D04/sudoku/generator/generate.c
+	<sys/types.h>
+	"../solver/solver.h"
+	"../sudoku.h"
+	"generator.h"
+
+1708037916 /home/wrexes/Documents/1CDEV/D04/sudoku/solver/solver.h
+	<sys/types.h>
+	"../matrix/matrix.h"
+	"../sudoku.h"
+
+1707958886 /home/wrexes/Documents/1CDEV/D04/sudoku/matrix/matrix.h
+	<sys/types.h>
+
+1708036915 /home/wrexes/Documents/1CDEV/D04/sudoku/sudoku.h
+	<sys/types.h>
+	<conio.h>
+	<stdio.h>
+
+1708036778 /home/wrexes/Documents/1CDEV/D04/sudoku/generator/generator.h
+	"../matrix/matrix.h"
+
+1707935890 source:/home/wrexes/Documents/1CDEV/D04/sudoku/generator/generate_diagonal.c
+	"generator.h"
+
+1707942825 source:/home/wrexes/Documents/1CDEV/D04/sudoku/generator/generate_square.c
+	"../matrix/matrix.h"
+	"../sudoku.h"
+
+1707840292 source:/home/wrexes/Documents/1CDEV/D04/sudoku/grid/grid_destroy.c
+	<stdlib.h>
+	"grid.h"
+
+1707925822 /home/wrexes/Documents/1CDEV/D04/sudoku/grid/grid.h
+	"../matrix/matrix.h"
+
+1707841795 source:/home/wrexes/Documents/1CDEV/D04/sudoku/grid/grid_get.c
+	<stddef.h>
+	"grid.h"
+
+1707956205 source:/home/wrexes/Documents/1CDEV/D04/sudoku/grid/grid_print.c
+	<stdio.h>
+	<string.h>
+	<sys/types.h>
+	<unistd.h>
+	"grid.h"
+
+1708039061 source:/home/wrexes/Documents/1CDEV/D04/sudoku/main.c
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"generator/generator.h"
+	"grid/grid.h"
+	"sudoku.h"
+
+1707927242 source:/home/wrexes/Documents/1CDEV/D04/sudoku/matrix/cell_get_square.c
+	"matrix.h"
+
+1707928191 source:/home/wrexes/Documents/1CDEV/D04/sudoku/matrix/cell_get_status.c
+	"matrix.h"
+
+1707958891 source:/home/wrexes/Documents/1CDEV/D04/sudoku/matrix/has.c
+	"matrix.h"
+
+1707918685 source:/home/wrexes/Documents/1CDEV/D04/sudoku/matrix/matrix.c
+
+1707841059 source:/home/wrexes/Documents/1CDEV/D04/sudoku/matrix/matrix_create.c
+
+1707841065 source:/home/wrexes/Documents/1CDEV/D04/sudoku/matrix/matrix_destroy.c
+
+1707928788 source:/home/wrexes/Documents/1CDEV/D04/sudoku/matrix/matrix_get.c
+	<stddef.h>
+	"matrix.h"
+
+1707923524 source:/home/wrexes/Documents/1CDEV/D04/sudoku/matrix/matrix_print.c
+
+1707963584 source:/home/wrexes/Documents/1CDEV/D04/sudoku/matrix/matrix_set.c
+	"matrix.h"
+
+1707922435 source:/home/wrexes/Documents/1CDEV/D04/sudoku/matrix/validate_pos.c
+	"matrix.h"
+
+1708038139 source:/home/wrexes/Documents/1CDEV/D04/sudoku/random.c
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1708037764 source:/home/wrexes/Documents/1CDEV/D04/sudoku/solver/stack.c
+	<assert.h>
+	<stdlib.h>
+	"solver.h"
+
